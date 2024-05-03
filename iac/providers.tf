@@ -7,10 +7,13 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "YOUR_BUCKET_NAME_HERE"
+    bucket = "shortener-bucket"
     key    = "url-shortener/state"
+    region = "eu-central-1"
   }
 }
 
 # Configure the AWS Provider
-provider "aws" {}
+provider "aws" {
+  region = "eu-central-1"
+}

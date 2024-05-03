@@ -1,4 +1,4 @@
-data "aws_iam_policy_document" "get_movie_item" {
+data "aws_iam_policy_document" "create_short_url_lambda" {
   statement {
     effect = "Allow"
 
