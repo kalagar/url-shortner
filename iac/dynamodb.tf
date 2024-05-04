@@ -1,3 +1,6 @@
+locals {
+  codeIndex = "CodeIndex"
+}
 resource "aws_dynamodb_table" "urls" {
   name           = "urls"
   billing_mode   = "PROVISIONED"
