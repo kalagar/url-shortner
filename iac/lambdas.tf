@@ -5,6 +5,10 @@ module "create_short_url_lambda" {
   policies = [
     data.aws_iam_policy_document.create_short_url_lambda.json
   ]
+
+  environment_variables = {
+    BASE_URL = "https://5366kay442.execute-api.eu-central-1.amazonaws.com/live/",
+  }
 }
 
 module "redirect_lambda" {
