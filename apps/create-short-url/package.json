@@ -1,7 +1,7 @@
 {
   "name": "create-short-url",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create short URL using AWS Lambda and DynamoDB",
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
