@@ -12,8 +12,6 @@
   "author": "Mansour Kalagar",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.569.0",
-    "@aws-sdk/lib-dynamodb": "^3.569.0",
     "amazon-dax-client": "^1.2.9",
     "aws-sdk": "^2.1613.0",
     "typescript": "^5.4.5"
